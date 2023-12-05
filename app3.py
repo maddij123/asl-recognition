@@ -30,7 +30,7 @@ class ASLPredictionApp(App):
         layout.add_widget(self.prediction_label)
 
         #load model
-        self.model = tf.keras.models.load_model('C:\\Users\\Owner\\app\\model1.h5')  
+        self.model = tf.keras.models.load_model('C:\\Users\\Owner\\app\\model2.h5')  
 
         # Setup video capture device
         self.capture = cv2.VideoCapture(0)
